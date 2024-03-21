@@ -25,7 +25,28 @@
   <link rel="stylesheet" href="assets/css/templatemo-chain-app-dev.css">
   <link rel="stylesheet" href="assets/css/animated.css">
   <link rel="stylesheet" href="assets/css/owl.css">
+  <style>
+    .main-ban {
+      margin-top: -20%;
+      /* Default margin for all screens */
+    }
 
+    /* Apply styles only on small screens (less than or equal to 768px) */
+    @media screen and (max-width: 768px) {
+      .main-ban {
+        margin-top: -20%;
+        /* Adjust margin for small screens */
+      }
+    }
+
+    /* Apply styles only on large screens (greater than 768px) */
+    @media screen and (min-width: 769px) {
+      .main-ban {
+        margin-top: 0;
+        /* Reset margin for large screens */
+      }
+    }
+  </style>
 </head>
 
 <body>
@@ -76,16 +97,21 @@
 
 
 
-  <div class="main-banner wow fadeIn" id="top" data-wow-duration="1s" data-wow-delay="0.5s">
+  <div class="main-banner wow fadeIn main-ban" id="top" data-wow-duration="1s" data-wow-delay="0.5s">
     <div class="container">
       <div class="row">
         <div class="col-lg-12">
           <div class="row">
-            <div class="col-lg-6 align-self-center">
+            <div class="col-lg-6">
+              <div class="right-image wow fadeInRight" data-wow-duration="1s" data-wow-delay="0.5s">
+                <img src="assets/images/Digital transformation-amico.png" style="margin-top: -15%;" alt="">
+              </div>
+            </div>
+            <div class="col-lg-6">
               <div class="left-content show-up header-text wow fadeInLeft" data-wow-duration="1s" data-wow-delay="1s">
                 <div class="row">
                   <div class="col-lg-12">
-                    <h2>workaround it support services</h2>
+                    <h2>WORKAROUND IT support services</h2>
                     <p>IT support ensures smooth operations by maintaining software, backing up data, and managing
                       security. They strategize and plan IT initiatives to align with organizational goals, fostering
                       innovation and efficiency. With a proactive approach, they mitigate risks and ensure compliance,
@@ -99,11 +125,7 @@
                 </div>
               </div>
             </div>
-            <div class="col-lg-6">
-              <div class="right-image wow fadeInRight" data-wow-duration="1s" data-wow-delay="0.5s">
-                <img src="assets/images/Computer troubleshooting-rafiki (2).png" alt="">
-              </div>
-            </div>
+
           </div>
         </div>
       </div>
